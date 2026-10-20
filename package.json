@@ -1,7 +1,7 @@
 {
   "name": "airbnb-axi",
   "version": "0.1.0",
-  "description": "Evidence-preserving Airbnb public-page search and listing CLI",
+  "description": "Airbnb search and listing analysis for AI agents, with structured results, source provenance, and reproducible requirement checks",
   "license": "MIT",
   "repository": {
     "type": "git",

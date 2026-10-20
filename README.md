@@ -1,8 +1,8 @@
 # airbnb-axi
 
-`airbnb-axi` is a dependency-free Node.js CLI and agent skill for reading public Airbnb search and listing evidence without turning unknowns into recommendations. It preserves quoted price labels, page coverage, amenities, policies, photos, retrieval metadata, and replay provenance. Its assessor checks recorded evidence against explicit requirements.
+`airbnb-axi` is a lightweight command-line tool and agent skill for searching Airbnb listings and evaluating stays against specific requirements.
 
-It does not book stays, message hosts, bypass access controls, or inspect images by itself.
+It provides structured pricing, amenities, policies, and photo references, with source metadata and explicit uncertainty. Saved captures support offline replay and repeatable evaluation. Built on Node.js with no runtime dependencies.
 
 ## Install
 
@@ -67,8 +67,8 @@ npm pack --dry-run
 
 The public suite contains 48 offline tests. It uses generated payloads, two clearly synthetic HTML fixtures, stubbed network responses, loopback HTTP transport, and CLI subprocesses. It makes no live Airbnb request. GitHub Actions is configured to run the suite on Node.js 20, 22, and 24. See [RESULTS.md](RESULTS.md) for the method and limits.
 
-## Attribution
+## License
 
-This project reuses public-page extraction and geocoding concepts from [OpenBnB's `mcp-server-airbnb`](https://github.com/openbnb-org/mcp-server-airbnb) version 0.3.0 at commit [`d5a8f18f5978b0a33dea4b3ec130c389bad845cc`](https://github.com/openbnb-org/mcp-server-airbnb/commit/d5a8f18f5978b0a33dea4b3ec130c389bad845cc), licensed under MIT. See [NOTICE](NOTICE) and [LICENSE](LICENSE).
+MIT licensed. See [LICENSE](LICENSE) for terms and [NOTICE](NOTICE) for third-party acknowledgments.
 
-`airbnb-axi` is independent software and is not affiliated with Airbnb, Inc.
+`airbnb-axi` is independent software and is not affiliated with Airbnb, Inc. It supports search and evaluation; booking and host communication are outside its scope.

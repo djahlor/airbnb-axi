@@ -1,5 +1,8 @@
-airbnb-axi reuses public-page extraction and geocoding concepts from
-OpenBnB's mcp-server-airbnb version 0.3.0, commit
+airbnb-axi is a standalone CLI with its own transport, data normalization,
+capture and replay format, requirement assessor, and companion agent skill.
+
+Public-page extraction patterns and portions of the geocoding logic were
+adapted from OpenBnB's mcp-server-airbnb version 0.3.0, commit
 d5a8f18f5978b0a33dea4b3ec130c389bad845cc.
 
 Upstream project: https://github.com/openbnb-org/mcp-server-airbnb
