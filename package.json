@@ -1,0 +1,33 @@
+{
+  "name": "airbnb-axi",
+  "version": "0.1.0",
+  "description": "Evidence-preserving Airbnb public-page search and listing CLI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djahlor/airbnb-axi.git"
+  },
+  "homepage": "https://github.com/djahlor/airbnb-axi#readme",
+  "bugs": {
+    "url": "https://github.com/djahlor/airbnb-axi/issues"
+  },
+  "type": "module",
+  "bin": {
+    "airbnb-axi": "bin/airbnb-axi.mjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "skills",
+    "README.md",
+    "RESULTS.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}

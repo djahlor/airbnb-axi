@@ -1,0 +1,9 @@
+airbnb-axi reuses public-page extraction and geocoding concepts from
+OpenBnB's mcp-server-airbnb version 0.3.0, commit
+d5a8f18f5978b0a33dea4b3ec130c389bad845cc.
+
+Upstream project: https://github.com/openbnb-org/mcp-server-airbnb
+Upstream copyright: Copyright (c) 2025 Altmatter
+Upstream license: MIT (included in LICENSE)
+
+airbnb-axi is independent software and is not affiliated with Airbnb, Inc.
